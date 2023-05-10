@@ -1,6 +1,6 @@
 <?php
 
-    $to = "saisangamesh97@gmail.com";
+    $to = "service@payrupikloan.in";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -13,9 +13,9 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Bitmap Photography.";
+    $subject = "You have a message from sayyam website.";
 
-    $logo = 'img/logo.png';
+    $logo = 'assets/img/head_logo.f24f559c.png';
     $link = '#';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
