@@ -38,18 +38,9 @@
     border: 3px solid white; 
   }
   
-  .container{max-width:900px;margin:auto}.title{text-align:center;font-family:Arial;margin-top:50px;margin-bottom:50px}.accordion__item{margin-bottom:10px}.accordion__item__header{background-color:#CBEAFE;padding:15px;cursor:pointer;position:relative;color:#000;font-family:Arial;font-weight:400;font-size:20px}.accordion__item__header::before{height:15px;width:15px;content:"";position:absolute;right:15px;top:15px;transition:.5s all;transform:rotate(45deg);border-right:2px solid #000;border-bottom:2px solid #000}.accordion__item__header.active{background-color:#33a0ff;color:#fff;transition:.5s}.accordion__item__header.active::before{transform:rotate(-135deg);top:23px;border-right:2px solid #fff;border-bottom:2px solid #fff}.accordion__item__content{overflow-y:auto;padding:0;display:none}
+  .container{max-width:900px;margin:auto}.title{text-align:center;font-family:Proxima nova;margin-top:50px;margin-bottom:50px}.accordion__item{margin-bottom:10px}.accordion__item__header{background-color:#CBEAFE;padding:15px;cursor:pointer;position:relative;color:#000;font-family:Arial;font-weight:400;font-size:20px}.accordion__item__header::before{height:15px;width:15px;content:"";position:absolute;right:15px;top:15px;transition:.5s all;transform:rotate(45deg);border-right:2px solid #000;border-bottom:2px solid #000}.accordion__item__header.active{background-color:#33a0ff;color:#fff;transition:.5s}.accordion__item__header.active::before{transform:rotate(-135deg);top:23px;border-right:2px solid #fff;border-bottom:2px solid #fff}.accordion__item__content{overflow-y:auto;padding:0;display:none}
   
-  .testbtn {
-    border:1px solid #99cc44 !important;    
-    border-left:5px solid #99cc44 !important;     
-    border-right:5px solid #99cc44 !important;       
-    border-top:5px solid #99cc44 !important;     
-    border-bottom:5px solid #99cc44 !important;         
-    -webkit-border-radius: 25px;    
-    border-radius: 25px;
-    margin-right: 10px;
-  }
+  
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
@@ -61,6 +52,7 @@
     font-size: 18px;
     }
   }
+  .w3-theme {color:#fff !important; background-color:#122c4f !important}
     </style>
   
    </head>
@@ -137,7 +129,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center pt-50">
-                            <h2>About us</h2>
+                            <h2>Frequently Asked Questions</h2>
                         </div>
                     </div>
                 </div>
@@ -151,9 +143,9 @@
         
           <!-- <div class="w3-border"> -->
         <div class="w3-bar w3-theme center">
-          <button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size:24px" onclick="openCategory(event,'Category1')"><small>General</small></button>
-          <br><button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size:24px" onclick="openCategory(event,'Category2')"><small>Loan Related</small></button>
-          <br><button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size:24px" onclick="openCategory(event,'Category3')"><small>Account Related</small></button>
+          <button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size:20px" onclick="openCategory(event,'Category1')"><small>General</small></button>
+          <br><button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size:20px" onclick="openCategory(event,'Category2')"><small>Loan Related</small></button>
+          <br><button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size:20px" onclick="openCategory(event,'Category3')"><small>Account Related</small></button>
         </div>
         
         <br>
@@ -517,22 +509,22 @@
                             <div class="single-footer-caption mb-50">
                                 <div class="single-footer-caption mb-30">
                                     <!-- logo -->
-                                    <div class="footer-logo">
-                                        <h4 style="color:white";>Registered Office</h4>
+                                    <div class="footer-logo" style="font-family:Proxima Nova;">
+                                        <h4 style="font-family:Proxima Nova; color:white";>Registered Office</h4>
                                         <p>Sayyam Investments Private Limited Agyathuri, Chamajali, Amingaon Guwahati, Kamrup Assam 781031</p>
                                     </div>
                                     <div class="footer-logo">
-                                        <h4 style="color:white";>Corporate Office</h4>
+                                        <h4 style="font-family:Proxima Nova; color:white";>Corporate Office</h4>
                                         <p>Sayyam Investments Private Limited Agyathuri, Chamajali, Amingaon Guwahati, Kamrup Assam 781031</p>
                                     </div>
                                     <div class="footer-logo">
-                                        <h4 style="color:white";>Grievance Redressal Officer</h4>
+                                        <h4 style="font-family:Proxima Nova; color:white";>Grievance Redressal Officer</h4>
                                         <ul >
                                             
                                             <li style="background-color:#00061C;color:white;"><p >Name:Aamir Khan</p></li>
-                                            <p>Address: Ground Floor, Novel Office Salarpuria Triton, Adugodi, Anepalya Main Road, Neelasandra Bengaluru 560030 KA IN</p>
-                                            <li><p>E-mail: compliant@sayyaminvestments.in</p></li>
-                                            <li><a href="https://sachet.rbi.org.in/" target="_blank">RBI Sachet Portal</a></li> 
+                                            <p style="font-family:Proxima Nova;">Address: Ground Floor, Novel Office Salarpuria Triton, Adugodi, Anepalya Main Road, Neelasandra Bengaluru 560030 KA IN</p>
+                                            <li style="font-family:Proxima Nova;"><p>E-mail: compliant@sayyaminvestments.in</p></li>
+                                            <li style="font-family:Proxima Nova;"><a href="https://sachet.rbi.org.in/" target="_blank">RBI Sachet Portal</a></li> 
                                         
                                         </ul>
                                     </div>
@@ -543,43 +535,45 @@
                         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Our Company</h4>
+                                    <h4 style="font-family:Proxima Nova;">Our Company</h4>
                                     <ul>
-                                        <li><a href="Our Story.html">Our Story</a></li>
-                                        <li><a href="about.html#my-section">Lending Partners</a></li>
-                                        <li><a href="contact.html">Careers</a></li>
-                                        <li><a href="contact.html"> Contact Us</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="faq.html"> FAQ</a></li>
+                                        <li style="font-family:Proxima Nova;"><a href="Our Story.html">Our Story</a></li>
+                                        <li style="font-family:Proxima Nova;"><a href="about.html#my-section">Lending Partners</a></li>
+                                        <li style="font-family:Proxima Nova;"><a href="contact.html">Careers</a></li>
+                                        <li style="font-family:Proxima Nova;"><a href="contact.html"> Contact Us</a></li>
+                                        <li style="font-family:Proxima Nova;"><a href="blog.html">Blog</a></li>
+                                        <li style="font-family:Proxima Nova;"><a href="faq.html"> FAQ</a></li>
                                     </ul>
                                 </div>
                                 <div class="footer-logo">
                                     <h4 style="color:white";>Our Law Firm</h4>
-                                        <p>Trust Law Advocates & Solicitors No.29/11, 1st Main Road, Mount Joy Road, Hanumanthnagar, Bangalore-560 019, Karnataka</p>
-                                        <li><small><p>Customer Service Number: 022489-30118</small></p></li>
-                                        <li><small><p>Working Hour: 9 am to 6 pm</small></p></li>
+                                        <p style="font-family:Proxima Nova;">Trust Law Advocates & Solicitors No.29/11, 1st Main Road, Mount Joy Road, Hanumanthnagar, Bangalore-560 019, Karnataka</p>
+                                        <li style="font-family:Proxima Nova;"><small><p>Customer Service Number: 022489-30118</small></p></li>
+                                        <li style="font-family:Proxima Nova;"><small><p>Working Hour: 9 am to 6 pm</small></p></li>
                                         <br>
                                         <h5 style="color:white";>Get the PayRupik App now</h5>
                                         <a href="https://play.google.com/store/apps/details?id=in.hanafintech">
                                             <img src="assets/img/googleplay.png" alt=""></a><br>
                                            <br> <img src="img/ios.png" alt="">
                                            <br> <img src="img/iso.png" height="80" width="80" alt="">
+                                           <li style="font-family:Proxima Nova;"><a href="#" target="_blank">Certification: ISO/IEC 27001:2022</a></li> 
+                                         
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Legal</h4>
+                                    <h4 style="font-family:Proxima Nova;">Legal</h4>
                                     <ul>
-                                        <li><a href="document/1/Fair Practice Code_Sayyam_FY23-24.pdf" target="_blank">Fair Practice Code</a></li>
-                                        <li><a href="document/Grievance Redressal Policy_sayyam.pdf" target="_blank">Grievance Redressal Policy</a></li>
-                                        <li><a href="document/Interest Rate Policy_sayyam.pdf" target="_blank">Interest Rate Policy</a></li>
-                                        <li><a href="document/KYC and AML Policy.pdf" target="_blank">KYC & AML Policy </a></li>  
-                                        <li><a href="document/Privacy policy_Sayyam.pdf" target="_blank">Privacy Policy</a></li> 
-                                        <li><a href="document/REFUND AND CANCELLATION POLICY_Sayyam.pdf" target="_blank">Refund and Cancellation</a></li> 
-                                        <li><a href="document/TERMS AND CONDITIONS_Sayyam .pdf" target="_blank">Terms and Condition</a></li> 
-                                        <li><a href="document/IT Policy_Sayyam.pdf" target="_blank">IT Policy</a></li> 
+                                        <li style="font-family:Proxima Nova;"><a href="document/1/Fair Practice Code_Sayyam_FY23-24.pdf" target="_blank">Fair Practice Code</a></li>
+                                        <li style="font-family:Proxima Nova;"><a href="document/Grievance Redressal Policy_sayyam.pdf" target="_blank">Grievance Redressal Policy</a></li>
+                                        <li style="font-family:Proxima Nova;"><a href="document/Interest Rate Policy_sayyam.pdf" target="_blank">Interest Rate Policy</a></li>
+                                        <li style="font-family:Proxima Nova;"><a href="document/KYC and AML Policy.pdf" target="_blank">KYC & AML Policy </a></li>  
+                                        <li style="font-family:Proxima Nova;"><a href="document/Privacy policy_Sayyam.pdf" target="_blank">Privacy Policy</a></li> 
+                                        <li style="font-family:Proxima Nova;"><a href="document/REFUND AND CANCELLATION POLICY_Sayyam.pdf" target="_blank">Refund and Cancellation</a></li> 
+                                        <li style="font-family:Proxima Nova;"><a href="document/TERMS AND CONDITIONS_Sayyam .pdf" target="_blank">Terms and Condition</a></li> 
+                                        <li style="font-family:Proxima Nova;"><a href="document/IT Policy_Sayyam.pdf" target="_blank">IT Policy</a></li> 
                                          
                                     </ul>
                                 </div>
@@ -593,8 +587,8 @@
                         <div class="col-xl-9 col-lg-8">
                             <div class="footer-copy-right">
                                 <p>
-                                    Copyrights &copy;<script>document.write(new Date().getFullYear());</script> Sayyam Investments Private Limited.&#174;
-                                    </p>
+  Copyrights &copy;<script>document.write(new Date().getFullYear());</script> Sayyam Investments Private Limited.&#174;
+  </p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4">

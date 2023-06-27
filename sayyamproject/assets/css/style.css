@@ -28,7 +28,7 @@
 /*-------------   Color Variable  --------------*/
 /*-------------Color include--------------*/
 /*-- Background color---*/
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Rufina:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Proxima Nova:300,400,500,700,900|Rufina:400,700&display=swap");
 /* line 56, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_color.scss */
 .white-bg {
   background: #ffffff;
@@ -96,7 +96,7 @@
   color: #3589f1 !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Rufina", serif;
+  font-family: "Proxima Nova", serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -195,7 +195,7 @@
 /* 1. Theme default css */
 /* line 4, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -207,7 +207,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rufina", serif;
+  font-family: "Proxima Nova", serif;
   color: #000a2d;
   margin-top: 0px;
   font-style: normal;
@@ -217,7 +217,7 @@ h6 {
 
 /* line 23, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
 p {
-  font-family: "Rubik", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   color: #7a8290;
   font-size: 16px;
   line-height: 30px;
@@ -504,11 +504,11 @@ hr {
   background: #000a2d;
   border-radius: 5px;
   text-transform: uppercase;
-  font-family: "Rubik", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   color: #fff;
   font-size: 14px;
   padding: 27px 44px;
-  -moz-user-select: none;
+ 
   cursor: pointer;
   display: inline-block;
   font-weight: 500;
@@ -612,7 +612,7 @@ hr {
   font: "Rufina", serif;
   background: none;
   border-radius: 5px;
-  -moz-user-select: none;
+  
   padding: 28px 50px;
   margin: 10px;
   text-transform: uppercase;
@@ -2381,15 +2381,15 @@ hr {
   -moz-animation-name: float-bob;
   -moz-animation-duration: 2s;
   -moz-animation-iteration-count: infinite;
-  -moz-animation-timing-function: linear;
+
   -ms-animation-name: float-bob;
   -ms-animation-duration: 2s;
   -ms-animation-iteration-count: infinite;
-  -ms-animation-timing-function: linear;
+ 
   -o-animation-name: float-bob;
   -o-animation-duration: 2s;
   -o-animation-iteration-count: infinite;
-  -o-animation-timing-function: linear;
+  
 }
 
 @-webkit-keyframes float-bob {
@@ -2712,7 +2712,7 @@ hr {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 784, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_common.scss */
   .section-padding30 {
-    padding-top: 150px;
+    padding-top: 80px;
     padding-bottom: 130px;
   }
 }
@@ -4779,7 +4779,7 @@ hr {
   margin-bottom: 29px;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: "Rubik", sans-serif;
+  font-family: "Proxima nova", sans-serif;
 }
 
 /* line 44, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_footer.scss */
@@ -5151,7 +5151,7 @@ hr {
 
 /* line 41, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_blog_page.scss */
 .home-blog-area .single-blogs .blog-captions h2 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Proxima nova", sans-serif;
   font-weight: 500;
   font-size: 25px;
   line-height: 1.5;
@@ -6857,7 +6857,7 @@ hr {
   color: #fff;
   font-weight: 900;
   margin-bottom: 0;
-  font-family: "Rufina", serif;
+  font-family: "Proxima nova", serif;
   text-transform: capitalize;
 }
 
@@ -6925,7 +6925,7 @@ hr {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Rubik", sans-serif;
+  font-family: "Proxima nova", sans-serif;
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
