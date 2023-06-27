@@ -3198,7 +3198,7 @@ hr {
 
 /* line 12, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
 .slider-area .single-slider .slider-cap-wrapper .hero__img {
-  width: 48%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -3223,7 +3223,7 @@ hr {
 
 /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
 .slider-area .single-slider .slider-cap-wrapper .hero__caption {
-  width: 48%;
+  width: 100%;
   overflow: hidden;
   padding-left: 16%;
 }
